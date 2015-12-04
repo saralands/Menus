@@ -1,0 +1,57 @@
+* {
+  border-sizing: border-box;
+}
+
+.nav-main {
+  display: inline-block;
+  width: 100%;
+  border: 1px solid block;
+  background-color: #9999FF;
+  list-style: none;
+  padding: 0;
+  margin: 0px;
+}
+.nav-main li {
+  float: left;
+  /*border: 2px solid #5CD6FF;*/
+}
+.nav-main li a {
+  display: block;
+  padding: 20px;
+  color: black;
+  text-decoration: none;
+  font-size: 30px;
+}
+.nav-main li:hover .nav-sub {
+  display: block;
+  background-color: #9999FF;
+}
+.nav-main li:hover .nav-sub a {
+  color: white;
+}
+
+.nav-sub {
+  display: none;
+  position: absolute;
+  list-style: none;
+  padding: 0;
+  margin: 0px;
+}
+.nav-sub li {
+  float: none;
+}
+
+.intro {
+  text-align: center;
+  font-size: 70px;
+}
+
+#intro2 {
+  text-align: center;
+}
+
+body {
+  font: normal 20px/normal 'Neou', sans-serif;
+}
+
+/*# sourceMappingURL=main.css.map */
